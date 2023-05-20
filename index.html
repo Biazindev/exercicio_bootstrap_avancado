@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestflyx</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <style>
+        .nav-item a {
+        margin-left: 20px;
+        }
+
+        .btn .btn-primary .btn-sm img {
+            margin-top: 16px;
+        }
+
+img {
+    margin-top: 16px;
+}
+
+.btn {
+    width: 80%;
+}
+
+        </style>
+        
+        <header id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img class="d-inline style=height: 300px; w-100" src="https://cdn.pixabay.com/photo/2014/10/31/17/41/dancing-dave-minion-510835_1280.jpg"/>
+                    <div class="carousel-caption">
+                        <h2>
+                            Desenho
+                        </h2>
+                    </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-inline w-100" src="https://cdn.pixabay.com/photo/2017/11/02/11/37/almeria-2910864_1280.jpg">
+                <div class="carousel-caption">
+                    <h2>
+                        Faroeste
+                    </h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-inline w-100" src="https://cdn.pixabay.com/photo/2022/06/16/09/06/city-7265458_640.jpg">
+                <div class="carousel-caption">
+                    <h2>
+                        Invasão Alienígena
+                    </h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-inline w-100" src="https://cdn.pixabay.com/photo/2019/02/10/09/51/photographer-3986846_1280.jpg">
+                <div class="carousel-caption">
+                    <h2>
+                        Fotografa
+                    </h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-inline w-100" src="https://cdn.pixabay.com/photo/2014/10/22/18/13/donald-duck-498512_640.jpg">
+                <div class="carousel-caption">
+                    <h2>
+                        Luz
+                    </h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-inline w-100" src="https://cdn.pixabay.com/photo/2020/08/07/15/49/window-5470985_640.jpg">
+                <div class="carousel-caption">
+                    <h2>Medo</h2>
+                </div>
+            </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="carousel-exemplo" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="5"></button>
+            </div>
+            </header>
+</head>
+<body>
+    <div class="container justify-content-center">
+        <nav class="nav nav-tabs justify-content-center">
+            <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Filmes</button>
+            <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Séries</button>
+            <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Em Alta</button>
+            <button data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link" type="button">Meus Favoritos</button>
+            <button data-bs-toggle="tab" data-bs-target="#aba5" class="nav-link" type="button">Em Breve</button>
+            <button data-bs-toggle="tab" data-bs-target="#aba6" class="nav-link" type="button">Perfil</button>
+        </nav>
+        <div class="tab-content">
+            <div class="tab-pane active" id="aba1">
+                <div class="row">
+                    <div class="col-md-8 text-bold">
+                        <h2>Filmes</h2>
+                        <div class="container g-0">
+                            <div class="row">
+                                <div class="col-md-4 post">
+                                    <img src="./images/sea-g830a1d99c_640.jpg" alt="">
+                                    <h4 class="h5">Título da Postagem</h4>
+                            
+                                    <a class="btn btn-primary btn-sm">Assistir</a>
+                                </div>
+                                <div class="col-md-4 post">
+                                    <img src="./images/water-g4246e15e1_640.jpg" alt="">
+                                    <h4 class="h5">Título da Postagem</h4>
+                                    
+                                    <a class="btn btn-primary btn-sm">Assistir</a>
+                                </div>
+                                <div class="col-md-4 post">
+                                    <img src="./images/squirrel-g713836808_640.jpg" alt="">
+                                    <h4 class="h5">Título da Postagem</h4>
+                                    <a class="btn btn-primary btn-sm">Assistir</a>
+                                </div>
+                                <div class="col-md-4 post">
+                                    <img src="./images/squirrel-gc7e7679b3_640.jpg" alt="">
+                                    <h4 class="h5">Título da Postagem</h4>
+                                    
+                                    <a class="btn btn-primary btn-sm">Assistir</a>
+                                </div>
+                                <div class="col-md-4 post">
+                                    <div>
+                                        <img src="./images/traffic-ge1d8f5a76_640.jpg" alt="">
+                                    <h4 class="h5">Título da Postagem</h4>
+                                    <a class="btn btn-primary btn-sm">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <article class="card">
+                            <header class="card-header">
+                                Em Breve
+                            </header>
+                            <img src="./images/traffic-ge1d8f5a76_640.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title">Filme Lançamento</h4>
+                                    
+                                        <p class="card-text">
+                                            Conheça os cads do Bootstrap e suas variações
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Ler mais</a>
+                                </div>
+                                <footer class="card-footer">
+                                        Disponivel em breve
+                                </footer>
+                        </article>
+                    </div>
+                    </div>
+            </div>
+            <div class="tab-pane" id="aba2">
+                Coteudo da aba Série
+            </div>
+            <div class="tab-pane" id="aba3">
+                conteudo da aba em alta
+            </div>
+            <div class="tab-pane" id="aba4">
+                conteudo da aba meus favoritos
+            </div>
+            <div class="tab-pane" id="aba5">
+                conteudo da aba em breve
+            </div>
+            <div class="tab-pane" id="aba6">
+                <div class="row">
+                    <div class="col">
+                        <h2>
+                            Cadastre-se
+                        </h2>
+                        <form>
+                            <label class="form-label" for="none">Seu Nome:</label>
+                            <input class="form-control" type="text" id="none">
+                            <label for="email" class="form-label">Seu E-mail:</label>
+                            <input id="email" type="email" class="form-control">
+                            <label for="mensagem" class="form-label">Sua Mensagem:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
+                            <input class="form-check-input" type="checkbox" id="aceito-termos">
+                            </div>
+                            <button class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
